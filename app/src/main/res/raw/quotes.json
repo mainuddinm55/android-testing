@@ -1,0 +1,43 @@
+{
+  "count": 20,
+  "totalCount": 2127,
+  "page": 1,
+  "totalPages": 107,
+  "lastItemIndex": 20,
+  "results": [
+    {
+      "_id": "An5NAXPrbN",
+      "author": "Thomas Edison",
+      "content": "Hell, there are no rules here-- we're trying to accomplish something.",
+      "tags": [],
+      "authorSlug": "thomas-edison",
+      "length": 69,
+      "dateAdded": "2023-04-14",
+      "dateModified": "2023-04-14"
+    },
+    {
+      "_id": "bfNpGC2NI",
+      "author": "Thomas Edison",
+      "content": "As a cure for worrying, work is better than whisky.",
+      "tags": [
+        "Humorous"
+      ],
+      "authorSlug": "thomas-edison",
+      "length": 51,
+      "dateAdded": "2023-04-14",
+      "dateModified": "2023-04-14"
+    },
+    {
+      "_id": "RTYhCs5Ka",
+      "author": "Charles Dickens",
+      "content": "I do not know the American gentleman, god forgive me for putting two such words together.",
+      "tags": [
+        "Humorous"
+      ],
+      "authorSlug": "charles-dickens",
+      "length": 89,
+      "dateAdded": "2023-04-14",
+      "dateModified": "2023-04-14"
+    }
+  ]
+}
