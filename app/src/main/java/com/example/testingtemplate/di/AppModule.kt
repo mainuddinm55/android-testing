@@ -33,11 +33,11 @@ object AppModule {
     @Singleton
     fun provideMockInfo(): List<MockResponseModel> {
         return listOf(
-//            MockResponseModel(
-//                url = "https://quotable.io/quotes",
-//                code = HttpURLConnection.HTTP_OK,
-//                res = R.raw.quotes
-//            )
+            MockResponseModel(
+                url = "https://quotable.io/quotes",
+                code = HttpURLConnection.HTTP_OK,
+                res = R.raw.quotes
+            )
         )
     }
 

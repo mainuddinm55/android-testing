@@ -1,8 +1,7 @@
 package com.example.testingtemplate.data.repositories
 
-import com.example.testingtemplate.data.local.QuoteDatabase
-import com.example.testingtemplate.data.network.QuoteApi
 import com.example.testingtemplate.data.models.Quote
+import com.example.testingtemplate.data.network.QuoteApi
 import com.example.testingtemplate.utils.Resource
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow

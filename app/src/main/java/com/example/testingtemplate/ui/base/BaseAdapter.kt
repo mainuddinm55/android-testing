@@ -34,7 +34,7 @@ abstract class BaseAdapter<T, VH : ViewDataBinding>(
     }
 
     fun addItem(item: T) {
-        val list = differ.currentList;
+        val list = differ.currentList
         list.add(item)
         differ.submitList(list)
         notifyDataSetChanged()

@@ -3,7 +3,6 @@ package com.example.testingtemplate.data.local.converters
 import com.google.common.truth.Truth.assertThat
 import org.junit.Before
 import org.junit.Test
-import java.lang.Exception
 
 class TagTypeConverterTest {
     private lateinit var converter: TagTypeConverter

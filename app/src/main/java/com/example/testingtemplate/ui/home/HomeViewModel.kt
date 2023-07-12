@@ -1,5 +1,6 @@
 package com.example.testingtemplate.ui.home
 
+import androidx.lifecycle.asLiveData
 import androidx.lifecycle.viewModelScope
 import com.example.testingtemplate.data.models.Quote
 import com.example.testingtemplate.data.repositories.QuoteRepository
@@ -18,6 +19,8 @@ class HomeViewModel @Inject constructor(
 ) : BaseViewModel() {
     private val _quotes = MutableStateFlow<Resource<List<Quote>>>(Resource.Loading)
     val quotes: StateFlow<Resource<List<Quote>>> = _quotes
+
+    val quotesLiveData = quotes.asLiveData()
 
     init {
         fetchQuotes()

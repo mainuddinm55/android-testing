@@ -1,11 +1,11 @@
 package com.example.testingtemplate.data.models
 
 import android.os.Parcelable
+import android.util.Log
+import androidx.annotation.VisibleForTesting
 import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.PrimaryKey
-import androidx.room.TypeConverters
-import com.example.testingtemplate.data.local.converters.TagTypeConverter
 import kotlinx.parcelize.Parcelize
 
 @Entity(tableName = "quotes")
@@ -19,4 +19,10 @@ data class Quote(
     @ColumnInfo(name = "length") val length: Int,
     @ColumnInfo(name = "data_added") val dateAdded: String,
     @ColumnInfo(name = "date_modified") val dateModified: String
-):Parcelable
+):Parcelable{
+
+    @VisibleForTesting(otherwise = VisibleForTesting.PRIVATE)
+     fun test(){
+        Log.d("Quote", "test: ")
+    }
+}
